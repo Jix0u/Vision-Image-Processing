@@ -24,7 +24,13 @@ dataset of handwritten digits. The training set size (ranging from 1000 - 60000 
 
 # 2. Research Question
 How does the volume of training data affect the classification accuracy and training time of a Support Vector Machine (traditional) compared to Convolutional Neural Network (deep learning)?
+
+# 3. SVM
 <img width="677" alt="Screen Shot 2023-01-10 at 10 12 49 AM" src="https://user-images.githubusercontent.com/55889031/211588740-d84323c1-cb13-494b-8ead-478a971a172f.png">
 
 <img width="958" alt="Screen Shot 2023-01-10 at 10 12 25 AM" src="https://user-images.githubusercontent.com/55889031/211588655-0ee9a376-63ac-4c01-9b7e-41f4cf9eb0bb.png">
+
+# 4. CNN
 <img width="631" alt="Screen Shot 2023-01-10 at 10 12 58 AM" src="https://user-images.githubusercontent.com/55889031/211588782-b0e1a595-0cc4-4674-b6c5-5c2e58738d74.png">
+<img width="649" alt="Screen Shot 2023-01-10 at 10 13 57 AM" src="https://user-images.githubusercontent.com/55889031/211588995-3b6f0f13-79b7-4e13-8dc3-63c4a59497d1.png">
+
