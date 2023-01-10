@@ -3,4 +3,4 @@ Using SVM (Support Vector Machine) and CNN (Convolutional Neural Networks) algor
 Compare their performance based on varied dataset sizes
 
 [Full Report Here](Full%20Report%20MNIST%20Classification.pdf)
-https://docs.google.com/viewer?url=Full%20Report%20MNIST%20Classification.pdf
+https://docs.google.com/viewer?url=https://raw.githubusercontent.com/MNIST-Classification/Full%20Report%20MNIST%20Classification.pdf
