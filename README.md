@@ -34,3 +34,15 @@ How does the volume of training data affect the classification accuracy and trai
 <img width="631" alt="Screen Shot 2023-01-10 at 10 12 58 AM" src="https://user-images.githubusercontent.com/55889031/211588782-b0e1a595-0cc4-4674-b6c5-5c2e58738d74.png">
 <img width="649" alt="Screen Shot 2023-01-10 at 10 13 57 AM" src="https://user-images.githubusercontent.com/55889031/211588995-3b6f0f13-79b7-4e13-8dc3-63c4a59497d1.png">
 
+# 5. Methodology
+This investigation involves two models that were programmed and fed a specified number of images from the MNIST dataset, accuracy and training time were then recorded.
+
+The SVM model was imported from Sklearn, set with the RBF kernel, and balance between C and Gamma parameters were tested (code in Appendix A, heavily adapted from Kothari). The average accuracy and training time of 10 trials were recorded (set with C & Gamma parameters that resulted in the highest training accuracy).
+
+The CNN model was imported from Keras and the sequential model (a model built layer by layer) was used (code in Appendix B, heavily adapted from Brownlee). A convolutional layer composed of 32 (3x3) kernel filters was added first, then a max-pooling layer and a final fully connected/neural network layer. The accuracy and training time was recorded as the average of the 10 trial evaluations.
+
+# 6. Tabulated Results
+The tabulated results for both classifiers in relation to training set size can be found below. The results from every 10 trials were averaged and recorded.
+<img width="640" alt="Screen Shot 2023-01-10 at 10 15 22 AM" src="https://user-images.githubusercontent.com/55889031/211589317-6849700c-580c-4d52-8603-9fe51a019c83.png">
+
+<img width="652" alt="Screen Shot 2023-01-10 at 10 15 30 AM" src="https://user-images.githubusercontent.com/55889031/211589347-a3563d93-f304-4697-9fd9-78e6aa77d989.png">
