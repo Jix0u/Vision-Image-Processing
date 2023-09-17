@@ -29,9 +29,13 @@ The final layer is the Fully Connected Layer, it receives the transformed input 
 
 
 # 3. MNIST Handwritten Digit Dataset
+The dataset used is the Modified National Institute of Standards and Technology (MNIST) dataset, composed of 70 000 digits extensively used in both training and testing machine learning visual classification (Yann, 1998). Each image is bounded by a 28*28 pixel grid (784 pixels in total), and approximately 250 writers contributed handwritten digits to ensure the machine learning algorithm can quantify a variety of handwritten digits.\
 <img width="420" alt="Screenshot 2023-09-16 at 10 42 48 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/3ff20946-2589-467c-a2b0-2eaed4eebe13">
 
 # 4. Results
-<img width="571" alt="Screenshot 2023-09-16 at 10 50 19 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/f374ecee-df49-435f-ba3d-c0a3236ea24e">
+The accuracy of the SVM model was generally higher than the accuracy of the CNN model when the training set size was smaller (1000-10000 images), and the opposite was true for larger training set sizes (10000-60000 images).In terms of accuracy, CNN models generally perform better (higher accuracy) when there is more data available. It is prone to overfitting on smaller sized training sets as a result of the numerous layers, kernels and parameters necessary to build a complete model.\
+<img width="571" alt="Screenshot 2023-09-16 at 10 50 19 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/f374ecee-df49-435f-ba3d-c0a3236ea24e">\
+For training time, SVM was faster when the dataset size was smaller (1000- 30000 images) while CNN was faster when the dataset size was larger
+(30000-60000 images). The trend line for the training time was generally steeper for the SVM model compared to the CNN model, meaning CNN scales much better with the size of the dataset. SVM time complexity scales superlinearly with the # of data points since it requires large amounts of memory to be stored in the kernel matrix. This makes it infeasible for larger datasets. CNN models generally scale linearly with the amount of visual data given, working well with larger datasets.
 <img width="571" alt="Screenshot 2023-09-16 at 10 51 27 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/a091e562-dffd-46bd-9f3d-cae4b89613a2">
 
