@@ -1,7 +1,10 @@
 # Image Classification with SVM and CNN
 
-Using SVM (Support Vector Machine) and CNN (Convolutional Neural Networks) algorithms to classify MNIST images 
-Compare their performance based on varied dataset sizes
+Compared **deep learning neural networks** to **traditional machine learning algorithms** to better understand their training process and end
+accuracy when classifying image datasets of different sizes.
+#### Traditional ML Algorithm used: SVM (Support Vector Machine)
+#### Deep Learning Neural Networks used: CNN (Convolutional Neural Networks)
+#### Image Dataset used: MNIST Handwritten Digits Dataset (Modified National Institute of Standards and Technology)
 
 [Full Report Here](Full%20Report%20MNIST%20Classification.pdf)
 
