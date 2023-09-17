@@ -32,6 +32,6 @@ The final layer is the Fully Connected Layer, it receives the transformed input 
 <img width="420" alt="Screenshot 2023-09-16 at 10 42 48 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/3ff20946-2589-467c-a2b0-2eaed4eebe13">
 
 # 4. Results
-<img width="809" alt="Screenshot 2023-09-16 at 10 24 58 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/af9af00e-7ab9-48bd-a649-6a7fd5a50f76">
-<img width="858" alt="Screenshot 2023-09-16 at 10 25 07 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/ffde30a1-50be-4fe0-a698-d509d758ab5e">
+<img width="571" alt="Screenshot 2023-09-16 at 10 50 19 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/f374ecee-df49-435f-ba3d-c0a3236ea24e">
+<img width="571" alt="Screenshot 2023-09-16 at 10 51 27 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/a091e562-dffd-46bd-9f3d-cae4b89613a2">
 
