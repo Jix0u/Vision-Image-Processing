@@ -21,7 +21,9 @@ Evidently, the data is nonlinear and a line can not be drawn to accurately class
 # 2. CNN
 Convolutional Neural Networks or ConvNet is a deep learning algorithm that takes raw images, assigns importance to features of the object, and uses them to differentiate the image without much preprocessing necessary (Saha, 2018). To achieve this, a CNN model is composed of 3 principal layers: convolution, pooling, and fully-connected. Each of the layers and their properties will be explained below.\
 <img width="515" alt="Screenshot 2023-09-16 at 10 41 23 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/59b90924-9c71-4810-978c-971c4eb831e5">
-<img width="560" alt="Screenshot 2023-09-16 at 10 41 46 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/2076a197-aeb9-423a-9f79-60080546dd7e">
+
+A pooling layer is used for resolution reduction after the image is processed within the convolution layer (Brownlee, 2019). It is also used to prevent overfitting, which occurs when models fit exactly to the training data, and perform inaccurately for testing data that it was not explicitly trained on (IBM, 2021). Max Pooling which takes the max value of a certain part of an image under the kernel filter will be used because of its simplicity and popularity (Yalçın, 2018).\
+<img width="553" alt="Screenshot 2023-09-16 at 10 45 02 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/80237dd2-31b9-49b9-90a8-452bd52b1d73">
 
 
 # 3. MNIST Handwritten Digit Dataset
