@@ -6,9 +6,10 @@ Compare their performance based on varied dataset sizes
 [Full Report Here](Full%20Report%20MNIST%20Classification.pdf)
 
 # 1. SVM
-<img width="874" alt="Screenshot 2023-09-16 at 10 23 10 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/a4cf5ad4-12f3-459f-9297-ffcbbfa891bf">
-<img width="582" alt="Screenshot 2023-09-16 at 10 23 26 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/444b6762-a4c6-48d8-b43a-dc400a2722e8">
-<img width="897" alt="Screenshot 2023-09-16 at 10 23 34 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/c42eea32-5ccd-452b-bc66-d60498375c05">
+<img width="578" alt="Screenshot 2023-09-16 at 10 28 01 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/df8bf002-2186-4e80-9a5c-16ef3aad25b4">
+<img width="468" alt="Screenshot 2023-09-16 at 10 29 28 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/2d32bc35-8448-45d9-96b2-271dd65b51d3">
+<img width="570" alt="Screenshot 2023-09-16 at 10 31 03 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/2e6fb731-497a-49a5-becf-eee4ca2a5b64">
+
 
 
 # 2. CNN
