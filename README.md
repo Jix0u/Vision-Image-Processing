@@ -1,4 +1,4 @@
-# MNIST Classification with SVM and CNN
+# Image Classification with SVM and CNN
 
 Using SVM (Support Vector Machine) and CNN (Convolutional Neural Networks) algorithms to classify MNIST images 
 Compare their performance based on varied dataset sizes
@@ -6,16 +6,20 @@ Compare their performance based on varied dataset sizes
 [Full Report Here](Full%20Report%20MNIST%20Classification.pdf)
 
 # 1. SVM
-<img width="677" alt="Screen Shot 2023-01-10 at 10 12 49 AM" src="https://user-images.githubusercontent.com/55889031/211588740-d84323c1-cb13-494b-8ead-478a971a172f.png">
+<img width="874" alt="Screenshot 2023-09-16 at 10 23 10 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/a4cf5ad4-12f3-459f-9297-ffcbbfa891bf">
+<img width="582" alt="Screenshot 2023-09-16 at 10 23 26 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/444b6762-a4c6-48d8-b43a-dc400a2722e8">
+<img width="897" alt="Screenshot 2023-09-16 at 10 23 34 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/c42eea32-5ccd-452b-bc66-d60498375c05">
 
-<img width="958" alt="Screen Shot 2023-01-10 at 10 12 25 AM" src="https://user-images.githubusercontent.com/55889031/211588655-0ee9a376-63ac-4c01-9b7e-41f4cf9eb0bb.png">
 
 # 2. CNN
-<img width="631" alt="Screen Shot 2023-01-10 at 10 12 58 AM" src="https://user-images.githubusercontent.com/55889031/211588782-b0e1a595-0cc4-4674-b6c5-5c2e58738d74.png">
-<img width="649" alt="Screen Shot 2023-01-10 at 10 13 57 AM" src="https://user-images.githubusercontent.com/55889031/211588995-3b6f0f13-79b7-4e13-8dc3-63c4a59497d1.png">
+<img width="788" alt="Screenshot 2023-09-16 at 10 23 44 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/d9748a34-116a-42ac-8f5d-22fa23de6ee7">
+<img width="610" alt="Screenshot 2023-09-16 at 10 23 59 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/8656a5c1-502a-47a5-ba54-fc8e9ebaa2cd">
+
 
 # 3. MNIST Handwritten Digit Dataset
+<img width="668" alt="Screenshot 2023-09-16 at 10 24 38 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/4e00195e-6e84-4c57-ab63-14e05e47e02d">
 
-# 6. Results
+# 4. Results
+<img width="809" alt="Screenshot 2023-09-16 at 10 24 58 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/af9af00e-7ab9-48bd-a649-6a7fd5a50f76">
+<img width="858" alt="Screenshot 2023-09-16 at 10 25 07 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/ffde30a1-50be-4fe0-a698-d509d758ab5e">
 
-<img width="652" alt="Screen Shot 2023-01-10 at 10 15 30 AM" src="https://user-images.githubusercontent.com/55889031/211589347-a3563d93-f304-4697-9fd9-78e6aa77d989.png">
