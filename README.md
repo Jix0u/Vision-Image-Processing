@@ -1,4 +1,4 @@
-# Image Classification with SVM and CNN
+# Image Classification Research
 
 Compared **Deep Learning Neural Networks** to **Traditional Machine Learning Algorithms** to better understand the training process + advantages of both models
 
@@ -13,8 +13,8 @@ Support Vector Machines (SVM) is a traditional classification algorithm for both
 <img width="578" alt="Screenshot 2023-09-16 at 10 28 01 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/df8bf002-2186-4e80-9a5c-16ef3aad25b4">\
 Although a linear SVM can be used for this experiment, for the purpose of increased accuracy a non-linear SVM will be used - a non-linear or wavy separator would categorize the MNIST data more accurately as a linear separator may incorrectly classify certain data points. To separate data that is not linearly separable, it must be transformed to a higher dimensional feature space where properties of the image are represented as singular points (Brown, 2021). To visualize this transformation, non-linearly separable 2-dimensional data will be shown below:\
 <img width="468" alt="Screenshot 2023-09-16 at 10 29 28 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/2d32bc35-8448-45d9-96b2-271dd65b51d3">\
-Evidently, the data is nonlinear and a line can not be drawn to accurately classify the data, thus the data points must be plotted in a 3-dimensional space.\
-<img width="570" alt="Screenshot 2023-09-16 at 10 31 03 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/2e6fb731-497a-49a5-becf-eee4ca2a5b64">
+Evidently, the data is nonlinear and a line can not be drawn to accurately classify the data, thus the data points must be plotted in a 3-dimensional space. The data is then linearly separable, and a boundary line can now be drawn to divide and classify the data.\
+<img width="570" alt="Screenshot 2023-09-16 at 10 31 03 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/2e6fb731-497a-49a5-becf-eee4ca2a5b64">\
 
 
 
