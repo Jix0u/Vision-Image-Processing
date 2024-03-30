@@ -6,6 +6,43 @@ Compared **Deep Learning Neural Networks** to **Traditional Machine Learning Alg
 #### Deep Learning Neural Networks used: CNN (Convolutional Neural Networks)
 #### Image Dataset used: MNIST Handwritten Digits Dataset (Modified National Institute of Standards and Technology)
 
+Stable-Lens: Image Captioning with CLIP and Stablelm
+Stable Lens is an image captioning model that leverages the power of CLIP and Stablelm. This model generates descriptive captions for images by combining visual features extracted using the CLIP encoder with Stablelm's text generation capabilities.
+
+How it Works
+CLIP Encoding: Stable Lens begins by utilizing the CLIP encoder to extract rich visual features from the input image. These features are represented as a CLIP embedding, capturing the essence of the image.
+
+Mapping Network (MLP): To bridge the gap between the CLIP embedding and Stablelm's text generation capabilities, a Multi-Layer Perceptron (MLP) serves as a mapping network. This MLP transforms the CLIP embedding into a vector within the Stablelm tokenizer's latent space.
+
+Stablelm for Captioning: The output from the mapping network becomes a prefix, which is then fed into Stablelm. Stablelm, a powerful language model, takes this prefix and generates a coherent and contextually relevant caption for the given image.
+
+Sample Generated Captions from COCO Images
+image
+References
+The idea of using a prefix for image captioning is inspired by the paper ClipCap: CLIP Prefix for Image Captioning.
+Usage
+To get started with Stable-Lens and reproduce the results, open the included Jupyter notebook (Stable-Lens-Image-Captioning.ipynb).
+
+Model Definition:
+Within the notebook, you'll find the architecture definition for both the CNN and SVM models:
+
+CNN Architecture: The Convolutional Neural Network (CNN) architecture begins by convolving input images with learnable filters, followed by pooling layers to reduce spatial dimensions. This hierarchical feature extraction process enables the network to discern patterns and representations directly from pixel values.
+
+SVM Definition: Support Vector Machines (SVM) operate by identifying the hyperplane that best separates different classes in the feature space. By mapping input data into a higher-dimensional feature space, SVM determines the optimal separating hyperplane that maximizes the margin between classes.
+
+Training and Evaluation:
+Training CNN involves backpropagation with gradient descent optimization algorithms like Adam or SGD, where the network adjusts its parameters based on minimizing a predefined loss function.
+
+Training SVM entails maximizing the margin between classes while minimizing classification errors through solving a convex optimization problem using techniques such as Sequential Minimal Optimization (SMO) or gradient descent.
+
+Evaluation Metrics:
+Both CNN and SVM models can be evaluated using standard metrics including accuracy, precision, recall, and F1-score, offering insights into their performance in correctly classifying MNIST digits.
+
+Deployment and Usage:
+Post-training, CNN and SVM models find utility in MNIST digit classification tasks, either integrated into production systems or for batch processing of image data.
+
+Code Examples and Resources:
+For implementation, tutorials, textbooks, and open-source libraries such as TensorFlow or scikit-learn offer invaluable resources. They often provide code examples, datasets, and pre-trained models to facilitate experimentation and implementation processes.
 [Full Report Here](Full%20Report%20MNIST%20Classification.pdf)
 
 # 1. SVM
