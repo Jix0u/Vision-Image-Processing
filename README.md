@@ -1,4 +1,4 @@
-# Image Classification Research
+# Vision Processing with CNN and SVM
 
 Compared **Deep Learning Neural Networks** to **Traditional Machine Learning Algorithms** to better understand the training process + advantages of both models
 
@@ -6,22 +6,7 @@ Compared **Deep Learning Neural Networks** to **Traditional Machine Learning Alg
 #### Deep Learning Neural Networks used: CNN (Convolutional Neural Networks)
 #### Image Dataset used: MNIST Handwritten Digits Dataset (Modified National Institute of Standards and Technology)
 
-Stable-Lens: Image Captioning with CLIP and Stablelm
-Stable Lens is an image captioning model that leverages the power of CLIP and Stablelm. This model generates descriptive captions for images by combining visual features extracted using the CLIP encoder with Stablelm's text generation capabilities.
-
 How it Works
-CLIP Encoding: Stable Lens begins by utilizing the CLIP encoder to extract rich visual features from the input image. These features are represented as a CLIP embedding, capturing the essence of the image.
-
-Mapping Network (MLP): To bridge the gap between the CLIP embedding and Stablelm's text generation capabilities, a Multi-Layer Perceptron (MLP) serves as a mapping network. This MLP transforms the CLIP embedding into a vector within the Stablelm tokenizer's latent space.
-
-Stablelm for Captioning: The output from the mapping network becomes a prefix, which is then fed into Stablelm. Stablelm, a powerful language model, takes this prefix and generates a coherent and contextually relevant caption for the given image.
-
-Sample Generated Captions from COCO Images
-image
-References
-The idea of using a prefix for image captioning is inspired by the paper ClipCap: CLIP Prefix for Image Captioning.
-Usage
-To get started with Stable-Lens and reproduce the results, open the included Jupyter notebook (Stable-Lens-Image-Captioning.ipynb).
 
 Model Definition:
 Within the notebook, you'll find the architecture definition for both the CNN and SVM models:
