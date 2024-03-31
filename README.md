@@ -1,4 +1,4 @@
-# Comparative Vision Processing with neural networks CNN and classical machine learning SVM, RandomForest, Trees
+# Comparative Vision Processing CNN, SVM, RandomForest, and Tree-based models
 
 Compared **Deep Learning Neural Networks** to **Traditional Machine Learning Algorithms** to better understand the training process + advantages of both models
 
