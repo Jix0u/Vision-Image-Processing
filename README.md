@@ -1,4 +1,4 @@
-# Comparative Vision Processing CNN, SVM, RandomForest, and Tree-based models
+# Comparative Vision Processing CNN, SVM, Audio Gen with RNN
 
 Compared **Deep Learning Neural Networks** to **Traditional Machine Learning Algorithms** to better understand the training process + advantages of both models
 
