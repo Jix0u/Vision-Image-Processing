@@ -46,10 +46,6 @@ A pooling layer is used for resolution reduction after the image is processed wi
 The final layer is the Fully Connected Layer, it receives the transformed input data (after pooling and convolution). This layer is composed of neurons that receive input, perform an operation and pass on the results to the next neuron layer (Karpathy, n.d.)\
 
 
-# 3. MNIST Handwritten Digit Dataset
-The dataset used is the Modified National Institute of Standards and Technology (MNIST) dataset, composed of 70 000 digits extensively used in both training and testing machine learning visual classification (Yann, 1998). Each image is bounded by a 28*28 pixel grid (784 pixels in total), and approximately 250 writers contributed handwritten digits to ensure the machine learning algorithm can quantify a variety of handwritten digits.\
-<img width="420" alt="Screenshot 2023-09-16 at 10 42 48 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/3ff20946-2589-467c-a2b0-2eaed4eebe13">
-
 # 4. Results
 The accuracy of the SVM model was generally higher than the accuracy of the CNN model when the training set size was smaller (1000-10000 images), and the opposite was true for larger training set sizes (10000-60000 images).In terms of accuracy, CNN models generally perform better (higher accuracy) when there is more data available. It is prone to overfitting on smaller sized training sets as a result of the numerous layers, kernels and parameters necessary to build a complete model.\
 <img width="571" alt="Screenshot 2023-09-16 at 10 50 19 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/f374ecee-df49-435f-ba3d-c0a3236ea24e">\
