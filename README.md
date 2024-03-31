@@ -1,4 +1,4 @@
-# Comparative Vision Processing CNN, SVM, Audio Gen with RNN
+# Comparative Vision Processing with CNN and SVM
 
 Compared **Deep Learning Neural Networks** to **Traditional Machine Learning Algorithms** to better understand the training process + advantages of both models
 
