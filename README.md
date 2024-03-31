@@ -47,7 +47,6 @@ Convolutional Neural Networks or ConvNet is a deep learning algorithm that takes
 A pooling layer is used for resolution reduction after the image is processed within the convolution layer (Brownlee, 2019). It is also used to prevent overfitting, which occurs when models fit exactly to the training data, and perform inaccurately for testing data that it was not explicitly trained on (IBM, 2021). Max Pooling which takes the max value of a certain part of an image under the kernel filter will be used because of its simplicity and popularity (Yalçın, 2018).\
 <img width="553" alt="Screenshot 2023-09-16 at 10 45 02 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/80237dd2-31b9-49b9-90a8-452bd52b1d73">\
 The final layer is the Fully Connected Layer, it receives the transformed input data (after pooling and convolution). This layer is composed of neurons that receive input, perform an operation and pass on the results to the next neuron layer (Karpathy, n.d.)\
-<img width="551" alt="Screenshot 2023-09-16 at 10 46 37 PM" src="https://github.com/Jix0u/MNIST-Classification/assets/55889031/75139fbe-a3f9-4553-a90c-b33ddb59dbd8">
 
 
 # 3. MNIST Handwritten Digit Dataset
